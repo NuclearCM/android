@@ -543,36 +543,37 @@
   <!-- TeamNuclear Stuff-->
 
   <!-- Build -->
-  <project path="build" name="android_build" remote="TN" revision="cm-13.0" >
+  <project path="build" name="NuclearCM/android_build" remote="github" revision="cm-13.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="TN" revision="cm-13.0" >
+  <project path="android" name="NuclearCM/android" remote="github" revision="cm-13.0" >
   <copyfile src="build.sh" dest="build-nr.sh" />
   <copyfile src="generate_changelog.sh" dest="generate_changelog.sh" />
   </project>
 
   <!-- Code -->
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="TN" revision="cm-13.0" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="TN" revision="cm-13.0" />
+  <project path="packages/apps/Settings" name="NuclearCM/android_packages_apps_Settings" remote="github" revision="cm-13.0" />
+  <project path="frameworks/base" name="NuclearCM/android_frameworks_base" remote="github" revision="cm-13.0" />
 
   <!-- Vendor -->
-  <project path="vendor/cm" name="android_vendor_cm" remote="TN" revision="cm-13.0" />
+  <project path="vendor/cm" name="NuclearCM/android_vendor_cm" remote="github" revision="cm-13.0" />
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" />
   <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-13.0" />
 
   <!-- Device -->
-  <project name="android_device_oneplus_bacon" path="device/oneplus/bacon" remote="TN" revision="cm-13.0" />
+  <project name="NuclearCM/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-13.0" />
+
 <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
 <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-13.0" />
 <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-13.0" />
 
   <!-- Kernel -->
-  <project name="acuicultor/android_kernel_oneplus_msm8974" path="kernel/oneplus/radioactive" remote="github" revision="Radioactive-v2" />
+  <project name="acuicultor/boeffla-kernel-cm-bacon" path="kernel/oneplus/radioactive" remote="github" revision="radioactive" />
 
   <!-- tools -->	
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-5.2" remote="TN" revision="master" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="uber_arm-androideabi-4.9-cortex-a15" remote="TN" revision="master" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="NuclearCM/arm-eabi-5.2" remote="github" revision="master" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="NuclearCM/uber_arm-androideabi-4.9-cortex-a15" remote="github" revision="master" groups="pdk,linux,arm" />
 
 
 </manifest>
