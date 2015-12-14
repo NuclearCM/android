@@ -12,7 +12,7 @@ res1=$(date +%s.%N)
 
 # Kernel Details
 BASE_RADIOACTIVE_VER="RADIOACTIVE"
-VER="MarshMallow_V3.14"
+VER="MarshMallow_V3.15"
 RADIOACTIVE_VER="$BASE_RADIOACTIVE_VER.$VER"
 
 # Vars
