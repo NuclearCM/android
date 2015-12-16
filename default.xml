@@ -555,6 +555,7 @@
   <!-- Code -->
   <project path="packages/apps/Settings" name="NuclearCM/android_packages_apps_Settings" remote="github" revision="cm-13.0" />
   <project path="frameworks/base" name="NuclearCM/android_frameworks_base" remote="github" revision="cm-13.0" />
+  <project path="frameworks/opt/cards" name="NuclearCM/frameworks_opt_cards" remote="github" revision="marshmallow" />
 
   <!-- Vendor -->
   <project path="vendor/cm" name="NuclearCM/android_vendor_cm" remote="github" revision="cm-13.0" />
