@@ -129,7 +129,6 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -559,6 +558,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="TN" revision="cm-13.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="TN" revision="cm-13.0" groups="pdk-fs" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="TN" revision="marshmallow" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="TN" revision="cm-13.0" groups="pdk" />
   
   <!-- Vendor -->
   <project path="vendor/cm" name="android_vendor_cm" remote="TN" revision="cm-13.0" />
