@@ -296,7 +296,6 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   <project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
@@ -559,6 +558,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="TN" revision="cm-13.0" groups="pdk-fs" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="TN" revision="marshmallow" />
   <project path="frameworks/av" name="android_frameworks_av" remote="TN" revision="cm-13.0" groups="pdk" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="TN" revision="cm-13.0" />
   
   <!-- Vendor -->
   <project path="vendor/cm" name="android_vendor_cm" remote="TN" revision="cm-13.0" />
