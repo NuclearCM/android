@@ -554,7 +554,7 @@
   <project path="external/lzma" name="android_external_lzma" remote="TN" revision="cm-13.0" groups="pdk" />
     <project path="external/libpng" name="android_external_libpng" remote="TN" revision="cm-13.0" groups="pdk" />
   <project path="external/speex" name="android_external_speex" remote="TN" revision="cm-13.0" groups="pdk" />
-    <project path="external/proguard" name="android_external_proguard" remote="TN" revision="cm-13.0" groups="pdk" remote="aosp" />
+    <project path="external/proguard" name="android_external_proguard" remote="TN" revision="cm-13.0" groups="pdk" />
   <project path="system/core" name="android_system_core" remote="TN" revision="cm-13.0" groups="pdk" />
 
   <!-- Vendor -->
