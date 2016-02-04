@@ -437,6 +437,7 @@
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" remote="aosp" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -555,7 +556,7 @@
   <project path="external/lzma" name="android_external_lzma" remote="TN" revision="cm-13.0" groups="pdk" />
     <project path="external/libpng" name="android_external_libpng" remote="TN" revision="cm-13.0" groups="pdk" />
   <project path="external/speex" name="android_external_speex" remote="TN" revision="cm-13.0" groups="pdk" />
-    <project path="external/proguard" name="android_external_proguard" remote="TN" revision="cm-13.0" groups="pdk" />
+   <!-- <project path="external/proguard" name="android_external_proguard" remote="TN" revision="cm-13.0" groups="pdk" /> -->
   <project path="system/core" name="android_system_core" remote="TN" revision="cm-13.0" groups="pdk" />
 
   <!-- Vendor -->
